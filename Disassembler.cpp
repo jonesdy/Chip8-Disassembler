@@ -333,6 +333,7 @@ void Disassembler::disassemble(const std::string &fileName)
          output<<std::endl;
       }
       output.close();
+      std::cout<<"Disassembled to "<<outputName<<std::endl;
    }
    else
    {
